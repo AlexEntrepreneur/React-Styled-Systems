@@ -1,0 +1,32 @@
+//====== FONT VARIABLES ======//
+$base-font-size: 1.8rem;
+$small-font-size: 1.5rem;
+$h1-font-size: 7.5rem;
+$h2-font-size: 5.5rem;
+$h3-font-size: 3.5rem;
+$h4-font-size: 2.5rem;
+
+//====== SPACING VARIABLES ======//
+$small-space: 10px;
+$normal-space: 18px;
+$medium-space: 34px;
+$large-space: 55px;
+$extra-large-space: 89px;
+
+//====== COLOR VARIABLES ======//
+$white: #FFFFFF;
+$theme-dark: #28333F;
+$theme-light: #F9F9F9;
+$theme-primary: #67DA8C;
+$theme-secondary: #1352DD;
+$theme-failure: #D03A30;
+
+
+//====== MEDIA QUERY VARIABLES ======//
+$mobile-large-width: 600px;
+$tablet-width: 800px;
+$desktop-width: 980px;
+
+$mobile-large: 'screen and (min-width: #{$mobile-large-width})';
+$tablet: 'screen and (min-width: #{$tablet-width})';
+$desktop: 'screen and (min-width: #{$desktop-width})';
