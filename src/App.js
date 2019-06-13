@@ -22,11 +22,11 @@ function App() {
         <Container column vCenter width="65%" padding={[medium_space, extra_large_space]}>
           <H3 bold color={theme_secondary}>Create Account</H3>
           <SmallText>or use your email for registration</SmallText>
-          <Form>
-            <Input />
-            <Input />
-            <Input />
-            <Button>Sign Up</Button>
+          <Form onSubmit={(e) => e.preventDefault()}>
+            <Input placeholder="Name" type="text"/>
+            <Input placeholder="Email" type="email"/>
+            <Input placeholder="Password" type="password"/>
+            <ButtonPrimary>Sign Up</ButtonPrimary>
           </Form>
         </Container>
       </Card>
