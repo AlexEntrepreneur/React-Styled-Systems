@@ -15,12 +15,12 @@ function App() {
     <View hCenter vCenter bgColor={theme_secondary}>
       <Card noPadding fullWidth maxWidth={desktop_width} margin={normal_space}>
         <Container padding={medium_space} vCenter column width="35%" bgColor={theme_primary}>
-          <H3>Welcome Back!</H3>
-          <Text>To keep connected with us please login with your personal info.</Text>
+          <H3 light>Welcome Back!</H3>
+          <Text light>To keep connected with us please login with your personal info.</Text>
           <Button>Sign In</Button>
         </Container>
-        <Container column>
-          <H3>Create Account</H3>
+        <Container column vCenter width="65%" padding={[medium_space, extra_large_space]}>
+          <H3 bold color={theme_secondary}>Create Account</H3>
           <SmallText>or use your email for registration</SmallText>
           <Form>
             <Input />
